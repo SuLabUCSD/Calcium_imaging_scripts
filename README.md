@@ -1,5 +1,5 @@
 Data organization:
-Imaging files must be organized in the exact format (see the “Example_data” folder). Must be TIFF files.
+1. Imaging files must be organized in the exact format (see the “Example_data” folder). Must be TIFF files.
 
 Run motion correction in FIJI:
 1. Install moco using directions here: https://github.com/NTCColumbia/moco. (published by Rafael Yuste 2016).
