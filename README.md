@@ -22,7 +22,7 @@ Run motion correction in FIJI:
 Calcium imaging analysis:
 1. Make sure that Image Processing Toolbox was installed in MATLAB
 
-2. Set path to “savePosition.m” and “xlwrite.m” (see "Associate function" folder)
+2. Set path to “savePosition.m” and “xlwrite.m” (see "Associate_function" folder)
 
 3. Open “Calcium_imaging_analysis.m”, go to “Excel convert” section, change the path to locate “20130227_xlwrite”.
 
