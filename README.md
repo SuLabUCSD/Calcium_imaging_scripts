@@ -25,9 +25,7 @@ Calcium imaging analysis:
 
 5. Once run, the algorithm will extract all the imaging files. A raw fluorescence image and heatmap for each fly will appear for the selection of background region. Click on a dark region in the antennal edge in the raw fluorescence image to select the background region.
 
-6. Output: 
-1. Excel files: background fluorescence over time, raw fluorescence over time, ΔF over time, and ΔF/F over time.
+6. Output: Excel files and mat file
+- background fluorescence over time, raw fluorescence over time, ΔF over time, and ΔF/F over time.
 * ΔF/F is background-subtracted and smoothed using a sliding window (length: 5, overlap: 4).
 * For ΔF/F, peak responses are also quantified and exported.
-
-2. Mat file
