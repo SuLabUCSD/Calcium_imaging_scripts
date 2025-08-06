@@ -1,5 +1,10 @@
 Data organization:
-1. Imaging files must be organized in the exact format (see the “Example_data” folder). Must be TIFF files.
+1. Imaging files must be organized in the exact format as follows. Must be TIFF files.
+2. Example format with 7 flies and 6 methyl acetate dilutions tested for each fly:
+- The data folder should contain 7 folders: Fly1, Fly2, Fly3, Fly4, Fly5, Fly6, Fly7
+- Inside each fly folder, there should 6 folders: 01_MA_10_9, 02_MA_10_8, 03_MA_10_7, 04_MA_10_6, 05_MA_10_5, 06_MA_10_4
+- MA is the abbreviation for the odorant used. The last two numbers indicate the dilution. For example, 10_9 is 10^-9.
+- Inside each dilution folder, there should be one TIFF file.
 
 Run motion correction in FIJI:
 1. Install moco using directions here: https://github.com/NTCColumbia/moco. (published by Rafael Yuste 2016).
